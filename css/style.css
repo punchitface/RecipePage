@@ -1,0 +1,26 @@
+@import url("header.css");
+@import url("content.css");
+@import url("footer.css");
+
+@font-face {
+    font-family: "Circe-Regular";
+    src: url("../fonts/CRC55.otf");
+}
+
+@font-face {
+    font-family: "Circe-Light";
+    src: url("../fonts/CRC35.otf");
+}
+
+@font-face {
+    font-family: "Circe-Bold";
+    src: url("../fonts/CRC65.otf");
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}

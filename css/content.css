@@ -1,0 +1,181 @@
+.recipe-box__content {
+    width: 957px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.recipe-box__content__title-block {
+    width: 100%;
+    border: 1px solid;
+}
+
+.title-block__mini-title {
+    height: 19px;
+    border: 1px solid;
+    font-family:"Circe-Regular", sans-serif;
+    font-size: 16px;
+    padding-left: 19px;
+}
+
+
+.title-block__big-title {
+    height: 52px;
+    border: 1px solid;
+    font-family: Circe-Regular, sans-serif;
+    color: #222222;
+    font-size: 42px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-left: 19px;
+}
+
+.title-block__img img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.title-block__cnt-prd {
+    height: 135px;
+    border: 1px solid;
+    border-top: none;
+    text-align: center;
+}
+
+.cnt-prd__time-weight {
+    display: inline-block;
+    vertical-align: top;
+    width: 275px;
+    height: 130px;
+}
+
+.time-weight__time {
+    display: inline-block;
+    width: 130px;
+    vertical-align: top;
+    margin-top: 38px;
+}
+
+.time-weight__weight {
+    display: inline-block;
+    width: 137px;
+    vertical-align: top;
+    border-right: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    margin-top: 38px;
+}
+
+.time-weight__title {
+    text-align: center;
+    font-family: "Circe-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #999999;
+}
+
+.title-block__cnt-prd__cnt {
+    font-family: "Circe-Regular", sans-serif;
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.cnt-prd__contains {
+    display: inline-block;
+    vertical-align: top;
+    width: 333px;
+}
+
+.contains__title {
+    padding-top: 30px;
+}
+
+.contains__content {
+    padding-top: 7px;
+}
+
+.calories {
+    display: inline-block;
+    vertical-align:top;
+}
+.proteins {
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 25px;
+}
+.fats {
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 25px;
+}
+.carbohydrates{
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 25px;
+}
+
+
+
+.cnt-prd__order {
+    display: inline-block;
+    vertical-align: top;
+    width: 320px;
+    height: 110px;
+    padding-top: 19px;
+    background-color: #f8f8f8;
+}
+
+.cnt-prd__order-title {
+    width: 204px;
+    height: 37px;
+    font-family: "Circe-Light", sans-serif;
+    line-height: 18px;
+    text-align: left;
+    color: #999999;
+    padding-left: 50px;
+}
+
+.cnt-prd__order-button {
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 13px;
+}
+
+.cnt-prd__order-button button {
+    display: block;
+    width: 236px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background: #159a15;
+    margin: 0 auto;
+    font-family: "Circe Light", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.recipe-box__content__instructions {
+    height: 500px;
+    border: 1px solid;
+}
+
+.instructions__title {
+    border: 1px solid;
+    font-family: "Circe-Bold", sans-serif;
+    font-size: 24px;
+    padding-left: 19px;
+}
+
+.instructions__content {
+    height: 120px;
+    border: 1px solid;
+    padding: 17px;
+}
+
+.recipe-box__need {
+    margin-top: 50px;
+}
