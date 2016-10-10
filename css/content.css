@@ -249,7 +249,7 @@
     font-family: "Circe-Bold", sans-serif;
     font-size: 18px;
     color: #222222;
-    padding-top: 22px;
+    padding-top: 16px;
 }
 
 .photo-recipe__text-content {
@@ -257,7 +257,7 @@
     font-family: "Circe Light", sans-serif;
     font-size: 18px;
     line-height: 24px;
-    padding-top: 17px;
+    padding-top: 14px;
 }
 
 .photo-recipe-block:last-child {
