@@ -7,12 +7,10 @@
 
 .recipe-box__content__title-block {
     width: 100%;
-    border: 1px solid;
 }
 
 .title-block__mini-title {
     height: 19px;
-    border: 1px solid;
     font-family:"Circe-Regular", sans-serif;
     font-size: 16px;
     padding-left: 19px;
@@ -21,7 +19,6 @@
 
 .title-block__big-title {
     height: 52px;
-    border: 1px solid;
     font-family: Circe-Regular, sans-serif;
     color: #222222;
     font-size: 42px;
@@ -37,7 +34,6 @@
 
 .title-block__cnt-prd {
     height: 135px;
-    border: 1px solid;
     border-top: none;
     text-align: center;
 }
@@ -159,25 +155,20 @@
 }
 
 .recipe-box__content__instructions {
-    height: 500px;
-    border: 1px solid;
 }
 
 .instructions__title {
-    border: 1px solid;
     font-family: "Circe-Bold", sans-serif;
     font-size: 24px;
     padding-left: 19px;
 }
 
 .instructions__content {
-    height: 120px;
-    border: 1px solid;
     padding: 17px;
+
 }
 
 .content__row {
-    height: 120px;
     display: inline-block;
     width: 280px;
     vertical-align: top;
@@ -217,3 +208,99 @@
 .recipe-box__need {
     margin-top: 35px;
 }
+
+.recipe-box__photo-recipe {
+    margin-top: 0px;
+}
+.instruction__photo {
+    padding-top: 13px;
+}
+
+.photo-recipe-block {
+    padding-top: 0;
+    margin-top: 20px;
+}
+
+.photo-recipe-block:first-child {
+    margin-top: 0;
+}
+
+.photo-recipe__photo {
+    vertical-align: top;
+    display: inline-block;
+    width: 462px;
+    height: 270px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.photo-recipe__photo img{
+    width: 100%;
+}
+
+.photo-recipe__text {
+    vertical-align: top;
+    display: inline-block;
+    width: 428px;
+    height: 270px;
+    padding-left: 17px;
+}
+
+.photo-recipe__text-title {
+    font-family: "Circe-Bold", sans-serif;
+    font-size: 18px;
+    color: #222222;
+    padding-top: 22px;
+}
+
+.photo-recipe__text-content {
+    color: #222222;
+    font-family: "Circe Light", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 17px;
+}
+
+.photo-recipe-block:last-child {
+    margin-top: 0;
+}
+
+.photo-recipe-hint {
+    margin-top: 20px;
+    height: 191px;
+    background: #f8f8f8;
+}
+
+.photo-recipe-hint__pic {
+    display: inline-block;
+    height: 135px;
+    width: 135px;
+    vertical-align: top;
+    margin-left: 60px;
+}
+
+.photo-recipe-hint__pic img{
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+.photo-recipe-hint__text {
+    display: inline-block;
+    height: 105px;
+    width: 620px;
+    vertical-align: top;
+    font-family: "Circe Light", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 45px;
+    margin-left: 35px;
+}
+
+.bon-appetit {
+    margin-top: 55px;
+    text-align: center;
+    border: 1px solid;
+    font-family: "Circe-Bold", sans-serif;
+    font-size: 18px;
+    color: #222222;
+}
+
