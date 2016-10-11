@@ -1,0 +1,26 @@
+.footer {
+    background: #fff;
+    height: 70px;
+}
+
+.footer__content {
+    width: 500px;
+    margin-left: 190px;
+    padding-top: 20px;
+}
+
+.footer__content img {
+    display: inline-block;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.copi {
+    font-family: "Circe-Regular", sans-serif;
+    font-size: 14px;
+    color: #222222;
+    display: inline-block;
+    margin-left: 13px;
+    vertical-align: top;
+    margin-top: 5px;
+}

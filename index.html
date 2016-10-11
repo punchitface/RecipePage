@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/slider-pro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>Recipe Page</title>
 </head>
 <body>
@@ -15,12 +19,10 @@
         <div class="recipe-box__content">
             <div class="recipe-box__content__title-block">
                 <div class="title-block__mini-title">
-                    <ul class="mini-title__links">
-                        <!--
-                        <li class="links__recipes"><a href="#">Рецепты</a></li>
-                        <li class="links__week"><a href="#">Ужины этой недели</a></li>
-                        <li class="links__this"><a href="#">Мясная запеканка с летними овощами</a></li>
-                        -->
+                    <ul>
+                        <li><a href="#">Рецепты</a></li>
+                        <li><a href="#">Ужины этой недели</a></li>
+                        <li class="this-link"><a href="#">Мясная запеканка с летними овощами</a></li>
                     </ul>
                 </div>
                 <div class="title-block__big-title">Мясная запеканка с летними овощами</div>
@@ -229,15 +231,97 @@
                     <div class="social__block__content">
                         <div class="subscribe">
                             <form>
-                                <input type="text" placeholder="Ваше имя">
-                                <input type="email" placeholder="Электронная почта">
+                                <input type="text" class="user-name" placeholder="Ваше имя">
+                                <div class="subscribe-block">
+                                    <input type="email" placeholder="Электронная почта">
+                                    <button type="submit">Подписаться</button>
+                                </div>
                             </form>
                         </div>
                     </div>
-                    <div class="social__block__mini-title">Подпишитесь на рассылку и получайте подборку новых<br> проверенных рецептов от Партии еды себе на почут.</div>
+                    <div class="social__block__mini-title subscribe-mini-title">Подпишитесь на рассылку и получайте подборку новых<br> проверенных рецептов от Партии еды себе на почут.</div>
                 </div>
             </div>
         </div>
+        <div class="recipe-slider">
+            <div class="recipe-slider__title">Ужины этой недели</div>
+            <div class="recipe-slider__pre-title">Доставим все продукты к этим рецептам 26 сентября</div>
+            <div class="recipe-slider__content">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slide-content">
+                                    <img src="img/slide-one.png">
+                                    <div class="about-slide">Татарский ароматный плов с бараниной</div>
+                                </div>
+                            </div>
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <img src="img/slide-second.png">
+                            <div class="about-slide">Утиная грудка под соусом из черной смородины с овощной фритатой</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <img src="img/slide-three.png">
+                            <div class="about-slide">Индейка в ореховом масле с капустным миксом</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <img src="img/slide-one.png">
+                            <div class="about-slide">Татарский ароматный плов с бараниной</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <img src="img/slide-second.png">
+                            <div class="about-slide">Утиная грудка под соусом из черной смородины с овощной фритатой</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <img src="img/slide-three.png">
+                            <div class="about-slide">Индейка в ореховом масле с капустным миксом</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <img src="img/slide-one.png">
+                            <div class="about-slide">Татарский ароматный плов с бараниной</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <img src="img/slide-second.png">
+                            <div class="about-slide">Утиная грудка под соусом из черной смородины с овощной фритатой</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <img src="img/slide-three.png">
+                            <div class="about-slide">Индейка в ореховом масле с капустным миксом</div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+            <div class="view-menu">
+                <button class="view-menu__btn">Посмотреть меню на неделю</button>
+            </div>
+        </div>
     </div>
+</div>
+    <div class="footer">
+        <div class="footer__content">
+            <img src="img/logo.png">
+            <div class="copi">©  2014-2016  Ужины с любовью от Партии  еды . </div>
+        </div>
+    </div>
+<script src="scripts/swiper.min.js"></script>
+<script src="scripts/swiper.jquery.min.js"></script>
+<script src="scripts/configure-slider.js"></script>
 </body>
 </html>

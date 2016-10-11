@@ -1,0 +1,82 @@
+.recipe-slider {
+    height: 472px;
+    width: 1278px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background: #f8f8f8;
+}
+
+.recipe-slider__title {
+    text-align: center;
+    font-family: "Circe-Bold", sans-serif;
+    font-size: 20px;
+    color: #222222;
+    line-height: 24px;
+}
+
+
+.recipe-slider__pre-title {
+    text-align: center;
+    font-family: Circe-Regular, sans-serif;
+    font-size: 14px;
+    color: #222222;
+}
+
+.recipe-slider__content {
+    margin-top: 20px;
+    position: relative;
+}
+
+.swiper-button-next {
+    background-image: url("../img/next.png") !important;
+    background-position: center !important;
+    background-size: 100% 100% !important;
+    width: 45px !important;
+    height: 45px !important;
+    cursor: pointer !important;
+    position: absolute !important;
+    top: 105px !important;
+    right: -20px !important;
+}
+
+.swiper-button-prev {
+    background-image: url("../img/previous.png") !important;
+    background-position: center !important;
+    background-size: 100% 100% !important;
+    width: 45px !important;
+    height: 45px !important;
+    cursor: pointer !important;
+    position: absolute !important;
+    top: 105px !important;
+    left: -20px !important;
+}
+
+.about-slide {
+    font-family: "Circe-Regular", sans-serif;
+    font-size: 18px;
+    color: #222222;
+    padding-top: 18px;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.view-menu {
+    margin-top: 30px;
+}
+
+.view-menu__btn {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    width: 262px;
+    height: 40px;
+    font-family: "Circe-Regular", sans-serif;
+    font-size: 14px;
+    background-color: #159a15;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}

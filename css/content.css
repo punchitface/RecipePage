@@ -1,6 +1,5 @@
 .recipe-box__content {
     width: 957px;
-    border: 1px solid red;
     margin: 0 auto;
     margin-top: 25px;
 }
@@ -13,7 +12,43 @@
     height: 19px;
     font-family:"Circe-Regular", sans-serif;
     font-size: 16px;
-    padding-left: 19px;
+    position: relative;
+}
+
+.title-block__mini-title ul {
+    width: 700px;
+    height: 19px;
+    margin-top: 0px;
+}
+
+.title-block__mini-title li:first-child {
+    margin-left: -19px;
+    list-style: none;
+}
+
+
+
+
+.title-block__mini-title li {
+    float: left;
+    margin-left: 25px;
+}
+
+.title-block__mini-title li a {
+    font-family: "Circe-Regular", sans-serif;
+    font-size:16px;
+    color: #222222;
+    border: none;
+    border-bottom: 1px solid #222222;
+    display: block;
+    text-decoration: none;
+    height: 19px;
+}
+
+.this-link a{
+    color: #999999 !important;
+    text-decoration: none;
+    border-bottom: none !important;
 }
 
 
@@ -299,14 +334,12 @@
 .bon-appetit {
     margin-top: 55px;
     text-align: center;
-    border: 1px solid;
     font-family: "Circe-Bold", sans-serif;
     font-size: 18px;
     color: #222222;
 }
 
 .recipe-box__social {
-    border: 1px solid;
     margin-top: 35px;
     height: 180px;
     margin-bottom: 35px;
@@ -316,7 +349,7 @@
     display: inline-block;
     height: 100%;
     width: 462px;
-    border: 1px solid;
+    border: 1px solid #e2e2e2;
     vertical-align: top;
     border-radius: 5px;
 }
@@ -343,18 +376,76 @@
 
 .social__block__content {
     margin-top: 13px;
-    border: 1px solid;
 }
 
-.subscribe input {
+.subscribe {
+    font-family: "Circe-Regular", sans-serif;
+    font-size: 14px;
+}
+
+.user-name {
     height: 40px;
-    width:  140px;
+    width:  125px;
     border-radius: 5px;
+    display: inline-block;
+    border: none;
+    border: 1px solid #cecece;
+    outline: none;
+    vertical-align: top;
+    padding-left: 15px;
 }
 
 .subscribe input:first-child {
     margin-left: 19px;
     margin-right: 12px;
+}
+
+.subscribe-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    background: #f8f8f8;
+}
+
+.subscribe-block input{
+    display: inline-block;
+    vertical-align: top;
+    width: 133px;
+    height: 40px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    border: 1px solid #cecece;
+    outline: none;
+    padding-left: 15px;
+}
+
+.subscribe-block button     {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    height: 46px;
+    width: 106px;
+    margin-left: -3px;
+    margin-top: -1px;
+    border: none;
+    border: 1px solid #fff;
+    border-left: none;
+    color: #fff;
+    background: #159a15;
+    font-family: "Circe-Regular", sans-serif;
+    font-size: 14px;
+}
+
+.subscribe-block button:hover {
+
+}
+
+.subscribe-mini-title {
+    line-height: 24px;
+    color: #222222;
 }
 
 .send__btn {
@@ -394,7 +485,6 @@
 }
 
 .social__btn {
-    border: 1px solid;
     display: inline-block;
     margin-left: 14px;
 }
